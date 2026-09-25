@@ -19,7 +19,7 @@ Running this replication package reproduces our benchmark comparison evaluating 
 | **Completeness (Recall)** | 45.0% | **92.0%** | **+47.0%** |
 | **Precision (Verifiability)** | 30.0% | **95.0%** | **+65.0%** |
 | **Semantic Hallucination Rate** | 35.0% | **4.0%** | **-31.0%** |
-
+ 
 ---
 
 ## 📂 Repository Structure & Data Availability
