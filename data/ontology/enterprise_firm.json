@@ -1,0 +1,13 @@
+{
+    "organization_type": "FinTech / Payment Processor",
+    "data_assets": {
+        "user_profiles": {"classification": "PII", "encryption_requirement": "Standard"},
+        "credit_card_data": {"classification": "PCI-DSS High-Risk", "encryption_requirement": "Strict-AES256"},
+        "transaction_logs": {"classification": "Confidential", "encryption_requirement": "Standard"}
+    },
+    "infrastructure": {
+        "hosting": "Hybrid-Cloud / AWS",
+        "database": "PostgreSQL (Encrypted-at-Rest)",
+        "network_protocols": ["HTTPS", "TLS-1.2"]
+    }
+}
